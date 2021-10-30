@@ -1,0 +1,14 @@
+ p{
+ margin: 0;
+ text-align: center;
+}
+
+.main{
+    background-color: rgb(204, 156, 204);
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

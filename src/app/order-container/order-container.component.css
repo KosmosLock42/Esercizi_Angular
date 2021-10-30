@@ -1,0 +1,27 @@
+
+
+p{
+    text-align: center;
+    font-size: 16;
+     margin: 0;
+     background-color: black;
+}
+
+.userlist{
+    background-color: rgb(211, 132, 132);
+    height: 85vh;
+    width: 85vh;
+    display: flex;
+    text-align: start;
+    
+   
+    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
