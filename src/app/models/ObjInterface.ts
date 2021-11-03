@@ -25,10 +25,10 @@ export enum Role {
   }
   
   interface Company {
-    id: number;
-    name: string;
-    description: string;
-    location: Place;
+    id?: number;
+    name?: string;
+    description?: string;
+    location?: Place;
   };
   
   export interface UserInter {
@@ -41,7 +41,7 @@ export enum Role {
     role: Role;
     username: string;
     profilePhotoUrl: string;
-    companies: Company[];
+    companies?: Company[];
     gender: Gender;
   }
   

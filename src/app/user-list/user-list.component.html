@@ -2,10 +2,11 @@
 
 <p>user-list.component</p>
 
- <div class="child">
-<app-user-single></app-user-single>
-<app-user-single></app-user-single>
-<app-user-single></app-user-single>
-</div>
+    <div class="child">
+        <ul>
+            <li *ngFor="let user of users; index as i">{{i+1}}. <img id="nyan" [src]="user.profilePhotoUrl" alt="gatteenee"> <b>{{user.name}} {{user.surname}}</b>  {{user.age}}  {{user.address.city}} </li>
+        </ul>
+
+    </div>
 
 </div>
