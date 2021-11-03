@@ -1,9 +1,10 @@
 .meow{
     background-color: rgb(209, 209, 157);
     height: 80vh;
-    width: 40vh;
+    width: 19vw;
+    display: flex;
+    justify-content: center;
+   
+    
 }
 
-p{
-    margin:0;
-}

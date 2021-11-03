@@ -1,27 +1,29 @@
 
 
-p{
+.userlist p{
     text-align: center;
     font-size: 16;
      margin: 0;
-     background-color: black;
+     
 }
 
-.userlist{
-    background-color: rgb(211, 132, 132);
+.help{
+    background-color: rgb(233, 187, 187);
     height: 85vh;
     width: 85vh;
     display: flex;
-    text-align: start;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
     
    
     
 }
 
-div{
+.something{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     
 }

@@ -1,6 +1,12 @@
 div{
     background-color: rgb(221, 190, 144);
     height: 6vh;
-    width: 25vh;
+    width: 20vw;
     border: 20px;
+    
+}
+
+p{
+    text-align: center;
+    text-justify: center;
 }

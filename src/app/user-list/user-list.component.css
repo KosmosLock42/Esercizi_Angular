@@ -1,19 +1,25 @@
 .main{
     background-color: rgb(121, 179, 121);
     height: 80vh;
-    width: 38vh;
-    border: solid 1px black;
+    width: 24vw;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
 }
 
 p{
-    text-align: center;
-  
+  text-align: justify;
 }
 
 .child{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
   align-items: center;
+  width: 100%;
+
 }
