@@ -1,11 +1,10 @@
 <div class="main">
+  <p>user-list.component</p>
 
-<p>user-list.component</p>
+  <div class="child" *ngFor="let user of users">
 
- <div class="child">
-<app-user-single></app-user-single>
-<app-user-single></app-user-single>
-<app-user-single></app-user-single>
-</div>
 
+    <app-user-single [gatti] = "user" ></app-user-single>
+
+  </div>
 </div>

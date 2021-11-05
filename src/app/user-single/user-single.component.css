@@ -1,7 +1,7 @@
 div{
     background-color: rgb(221, 190, 144);
-    height: 6vh;
-    width: 20vw;
+    height: 9vh;
+    width: 20.5vw;
     border: 20px;
     
 }
@@ -10,3 +10,13 @@ p{
     text-align: center;
     text-justify: center;
 }
+
+#nyan{
+    height: 9vh;
+    width: 6vw;
+  }
+
+  ol li{
+      list-style: none;
+      z-index: 1;
+  }
