@@ -4,7 +4,7 @@
   <div class="child" *ngFor="let user of users">
 
 
-    <app-user-single [gatti] = "user" ></app-user-single>
-
+    <app-user-single [gatti] = "user" (byeMiao)="eraser(user)"></app-user-single>
+    
   </div>
 </div>

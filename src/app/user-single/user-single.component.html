@@ -1,9 +1,13 @@
 <div>
-     <ul>
-      <li>
+ 
+       
         <img id="nyan" [src]="gatti.profilePhotoUrl" alt="gatteenee" />
-        <b>{{ gatti.name }} {{ gatti.surname }}</b> {{ gatti.age }}
-        {{ gatti.address.city }}
-      </li>
-    </ul>  
+
+        <strong>{{ gatti.name }}</strong>  
+        <strong>{{ gatti.surname }}</strong>
+        <p>{{ gatti.age }}</p>
+        <p>{{ gatti.address.city }}</p>
+  
+     
+        <button (click)="byeMiao.emit(gatti)">X</button>  
 </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit,Input, EventEmitter,Output } from '@angular/core';
 import { UserInter } from '../models/ObjInterface';
 
 
@@ -9,7 +9,7 @@ import { UserInter } from '../models/ObjInterface';
 })
 export class UserSingleComponent implements OnInit {
   @Input() gatti: any;
-
+  @Output() byeMiao = new EventEmitter<any>();
 
   constructor() { }
 

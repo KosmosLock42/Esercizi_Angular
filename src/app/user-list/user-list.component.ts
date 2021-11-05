@@ -58,6 +58,13 @@ export class UserListComponent implements OnInit {
       }
   ];
 
+  eraser(x: any){
+    let y = this.users.indexOf(x);
+
+    this.users.splice(y,1);
+
+  }
+
   constructor() { }
 
   ngOnInit(): void {
