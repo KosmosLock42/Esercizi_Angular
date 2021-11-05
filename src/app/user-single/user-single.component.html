@@ -1,4 +1,14 @@
 <div>
+ 
+       
+        <img id="nyan" [src]="gatti.profilePhotoUrl" alt="gatteenee" />
 
-<p>user-single.component</p>
+        <strong>{{ gatti.name }}</strong>  
+        <strong>{{ gatti.surname }}</strong>
+        <p>{{ gatti.age }}</p>
+        <p>{{ gatti.address.city }}</p>
+  
+     
+        <button (click)="byeMiao.emit(gatti)">X</button>  
 </div>
+

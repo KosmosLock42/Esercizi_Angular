@@ -5,10 +5,7 @@
     justify-content: flex-start;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    
-    
-    
+    flex-direction: column;   
 }
 
 p{
@@ -17,9 +14,17 @@ p{
 
 .child{
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   width: 100%;
+}
 
+#nyan{
+  height: 9vh;
+  width: 6vw;
+}
+
+ul li{
+  list-style: none;
 }

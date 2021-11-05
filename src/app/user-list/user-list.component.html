@@ -1,11 +1,18 @@
-<div class="main">
-
-<p>user-list.component</p>
-
- <div class="child">
-<app-user-single></app-user-single>
-<app-user-single></app-user-single>
-<app-user-single></app-user-single>
+<div class="main" >
+  <p>user-list.component</p>
+  <ng-container *ngIf="users.length > 0; else empty">
+ 
+    <div class="child" *ngFor="let user of users" >
+    
+    
+    <app-user-single [gatti] = "user" (byeMiao)="eraser(user)"></app-user-single>
+    
+  </div>
+</ng-container>
 </div>
 
-</div>
+
+<ng-template #empty>
+  <p>Non ci sono gatti.</p>
+  
+  </ng-template>

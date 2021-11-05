@@ -1,12 +1,39 @@
 div{
     background-color: rgb(221, 190, 144);
-    height: 6vh;
-    width: 20vw;
+    height: 9vh;
+    width: 20.5vw;
     border: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+    
+  
+    
+   
+    
     
 }
 
-p{
+/* p{
     text-align: center;
     text-justify: center;
+} */
+
+button{
+    color: red;
+    background-color: aliceblue;
+    height: 20px;
+    width: 20px;
+    text-align: center;
 }
+
+#nyan{
+    height: 9vh;
+    width: 6vw;
+  }
+/* 
+  ul li{
+      list-style: none;
+      z-index: 1;
+  } */
