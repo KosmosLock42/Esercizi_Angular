@@ -1,6 +1,6 @@
 .main{
     background-color: rgb(121, 179, 121);
-    height: 80vh;
+    height: 74vh;
     width: 24vw;
     justify-content: flex-start;
     display: flex;
@@ -8,13 +8,12 @@
     flex-direction: column;   
 }
 
-p{
-  text-align: justify;
+h4{
+  padding: 1.5vh;
 }
 
 .child{
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -25,6 +24,24 @@ p{
   width: 6vw;
 }
 
-ul li{
-  list-style: none;
+.emptytext{
+  color: rgb(38, 10, 196);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+  font-weight: bold;
+  
+}
+
+.meow{
+  height: 18vh;
+  width: 20vw;
+}
+
+.emptybox{
+ display: flex;
+ flex-direction: column;
+ border: solid black 1px;
+ justify-content: center;
+ align-items: center;
+ background-color:gray;
+margin-top: 8vh;
 }

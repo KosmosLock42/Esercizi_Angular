@@ -1,5 +1,5 @@
 <div class="main">
-  <p>user-list.component</p>
+  <h4>user-list.component</h4>
   <ng-container *ngIf="users.length > 0; else empty">
     <div class="child" *ngFor="let user of users">
       <app-user-single
@@ -11,5 +11,8 @@
 </div>
 
 <ng-template #empty>
-  <p>Non ci sono gatti.</p>
+  <div class="emptybox">
+  <img class="meow" src="../../assets/meow.jpg" alt="la mia Ombra">
+  <h3 class="emptytext">Non ci sono gatti!</h3>
+</div>
 </ng-template>
