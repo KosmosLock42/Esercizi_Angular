@@ -1,12 +1,47 @@
 div{
     background-color: rgb(221, 190, 144);
-    height: 6vh;
-    width: 20vw;
-    border: 20px;
+    height: 9vh;
+    width: 20.5vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0.5rem;
+    
+  
+    
+   
+    
     
 }
 
-p{
+/* p{
     text-align: center;
     text-justify: center;
+} */
+
+button{
+    color: rgb(58, 223, 71);
+    background-color: rgb(123, 16, 223);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
 }
+
+button:hover{
+    background-color: #fff;
+    color: rgb(235, 33, 33);
+}
+
+#nyan{
+    height: 9vh;
+    width: 6vw;
+  }
+/* 
+  ul li{
+      list-style: none;
+      z-index: 1;
+  } */

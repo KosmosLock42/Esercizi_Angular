@@ -18,3 +18,9 @@ p{
     justify-content: space-around;
     align-items: center;
 }
+
+h4{
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+}

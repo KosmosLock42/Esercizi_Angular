@@ -1,0 +1,23 @@
+<div class="lista">
+    <div class="spasso">
+        <ul>
+            <li>ID: {{user.id}}</li>
+            <li>Name: {{user.name}} </li>
+            <li>Surname: {{user.surname}} </li>
+            <li>Age: {{user.age}} </li>
+            <li>Date of birth: {{user.dateOfBirth | date: "dd MMM yyyy"}}  </li>
+            <li>Address:</li>
+            <li>City: {{user.address.city}} </li>
+            <li>Street: {{user.address.street}}</li>
+            <li>PostalCode: {{user.address.postalCode}} </li>
+            <li>Role: {{user.role}} </li>
+            <li>username: {{user.username}} </li>
+            <li><img id="miao" [src]="user.profilePhotoUrl"> </li>
+            <li>Gender: {{user.gender}}</li>
+            <!-- <li>Company: {{user.companies[0].name}}</li>
+            <li>Description: {{user.companies[0].description}}</li>
+            <li>Company: {{user.companies[1].name}} </li>
+            <li>Description: {{user.companies[1].description}}</li> -->
+        </ul>
+    </div>
+</div>
