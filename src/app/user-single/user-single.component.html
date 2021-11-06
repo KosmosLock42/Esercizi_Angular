@@ -1,14 +1,23 @@
-<div>
- 
-       
-        <img id="nyan" [src]="gatti.profilePhotoUrl" alt="gatteenee" />
+<div
+  [ngStyle]="{
+    'border-color':
+      gatti.role === 'admin'
+        ? 'green'
+        : gatti.role === 'manager'
+        ? 'red'
+        : gatti.role === 'staff'
+        ? 'blue'
+        : 'white'
+  }"
+>
+  <img id="nyan" [src]="gatti.profilePhotoUrl" alt="gatteenee" />
 
-        <strong>{{ gatti.name }}</strong>  
-        <strong>{{ gatti.surname }}</strong>
-        <p>{{ gatti.age }}</p>
-        <p>{{ gatti.address.city }}</p>
-  
-     
-        <button (click)="byeMiao.emit(gatti)">X</button>  
+  <strong>{{ gatti.name }}</strong>
+  <strong>{{ gatti.surname }}</strong>
+  <p>{{ gatti.age }}</p>
+  <p>{{ gatti.address.city }}</p>
+
+  <button (click)="byeMiao.emit(gatti)">Delete</button>
 </div>
+
 
