@@ -1,6 +1,6 @@
 .main{
     background-color: rgb(121, 179, 121);
-    height: 80vh;
+    height: 74vh;
     width: 24vw;
     justify-content: flex-start;
     display: flex;
@@ -27,4 +27,8 @@ p{
 
 ul li{
   list-style: none;
+}
+
+h4{
+  padding: 1.5vh;
 }
