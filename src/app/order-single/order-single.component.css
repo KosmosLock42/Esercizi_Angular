@@ -3,8 +3,8 @@
     flex-direction: column;
     align-self: center;
     background-color: rgb(102, 151, 173);
-    width: 77vh;
-    height: 13vh;
+    width: 79vh;
+    height: 16vh;
     margin: 1.5vh;
  
   
@@ -12,9 +12,8 @@
     
 }
 
-p{
-    text-align: center;
-    margin: 0;
+h4{
+    padding: 1vh;
 }
 
 .boxes{
